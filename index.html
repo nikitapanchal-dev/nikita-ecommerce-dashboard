@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy - E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>ShopEasy</h2>
+    <div>🛒 Cart (<span id="cart-count">0</span>)</div>
+</nav>
+
+<!-- Search + Filter -->
+<div class="controls">
+    <input type="text" id="search" placeholder="Search product...">
+
+    <select id="filter">
+        <option value="all">All</option>
+        <option value="clothing">Clothing</option>
+        <option value="accessories">Accessories</option>
+    </select>
+</div>
+
+<!-- Products -->
+<section class="products" id="product-list"></section>
+
+<!-- Dashboard -->
+<section class="dashboard">
+    <h3>Dashboard</h3>
+    <p>Total Items: <span id="total-items">0</span></p>
+    <p>Total Price: ₹<span id="total-price">0</span></p>
+</section>
+
+<!-- Cart -->
+<section class="cart-section">
+    <h3>Your Cart</h3>
+    <ul id="cart-items"></ul>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
