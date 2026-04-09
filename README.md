@@ -1,34 +1,43 @@
-# 🛒 ShopEasy - E-commerce Web App
+# 🛒 ShopEasy - E-commerce App
 
-A fully functional frontend e-commerce application built using **HTML, CSS, and JavaScript**.  
-This project includes product listing, cart management, search, filtering, and a live dashboard.
+A simple e-commerce website built using **HTML, CSS, and JavaScript**.
 
 ---
 
 ## 🚀 Live Demo
-🔗 https://nikita-ecommerce-dashboard.netlify.app
+
+https://nikita-ecommerce-dashboard.netlify.app/
 
 ---
 
 ## 📌 Features
 
-- 🛍️ Product Listing with Images  
-- 🔍 Search Products (Real-time)  
-- 🎯 Category Filter  
-- 🛒 Add to Cart  
-- ➕➖ Increase/Decrease Quantity  
-- ❌ Remove Items from Cart  
-- 📊 Dashboard (Total Items & Price)  
-- 💾 LocalStorage (Cart persists after refresh)  
+* Product listing
+* Search products
+* Filter by category
+* Add to cart
+* Increase/decrease quantity
+* Remove items
+* Total price calculation
+* Cart saved using LocalStorage
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Used
 
-- HTML5  
-- CSS3  
-- JavaScript (Vanilla JS)  
+* HTML
+* CSS
+* JavaScript
 
 ---
 
-## 📁 Folder Structure
+## ▶️ Run Locally
+
+1. Download or clone the project
+2. Open `index.html` in your browser
+
+---
+
+## 👩‍💻 Author
+
+Nikita Panchal
